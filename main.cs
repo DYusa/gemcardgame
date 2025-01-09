@@ -19,6 +19,7 @@ namespace SplendorGame
         public Gem(string name)
         {
             Name = name;
+            Count = count;
         }
     }
 
