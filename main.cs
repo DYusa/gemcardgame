@@ -80,12 +80,51 @@ public class Game
     }
 
     private void InitializeCards()
-    {
-        availableCards.Add(new Card("Card 1", new Dictionary<string, int> { { "Ruby", 3 }, { "Emerald", 2 } }, 1));
-        availableCards.Add(new Card("Card 2", new Dictionary<string, int> { { "Diamond", 4 } }, 2));
-        availableCards.Add(new Card("Card 3", new Dictionary<string, int> { { "Sapphire", 2 }, { "Onyx", 3 } }, 1));
-        // Add more cards as needed
-    }
+{
+    availableCards.Add(new Card("Card 1", new Dictionary<string, int> { { "Ruby", 2 }, { "Emerald", 1 } }, 1));
+    availableCards.Add(new Card("Card 2", new Dictionary<string, int> { { "Diamond", 4 } }, 2));
+    availableCards.Add(new Card("Card 3", new Dictionary<string, int> { { "Sapphire", 2 }, { "Onyx", 3 } }, 1));
+    availableCards.Add(new Card("Card 4", new Dictionary<string, int> { { "Ruby", 3 }, { "Diamond", 2 } }, 2));
+    availableCards.Add(new Card("Card 5", new Dictionary<string, int> { { "Emerald", 2 }, { "Onyx", 1 } }, 1));
+    availableCards.Add(new Card("Card 6", new Dictionary<string, int> { { "Ruby", 1 }, { "Sapphire", 2 } }, 1));
+    availableCards.Add(new Card("Card 7", new Dictionary<string, int> { { "Diamond", 3 }, { "Emerald", 2 } }, 2));
+    availableCards.Add(new Card("Card 8", new Dictionary<string, int> { { "Onyx", 2 }, { "Sapphire", 2 } }, 1));
+    availableCards.Add(new Card("Card 9", new Dictionary<string, int> { { "Ruby", 4 } }, 2));
+    availableCards.Add(new Card("Card 10", new Dictionary<string, int> { { "Emerald", 3 }, { "Diamond", 1 } }, 2));
+
+    availableCards.Add(new Card("Card 11", new Dictionary<string, int> { { "Ruby", 2 }, { "Emerald", 2 }, { "Onyx", 1 } }, 2));
+    availableCards.Add(new Card("Card 12", new Dictionary<string, int> { { "Diamond", 3 }, { "Sapphire", 2 } }, 1));
+    availableCards.Add(new Card("Card 13", new Dictionary<string, int> { { "Sapphire", 1 }, { "Emerald", 4 } }, 3));
+    availableCards.Add(new Card("Card 14", new Dictionary<string, int> { { "Onyx", 3 }, { "Ruby", 2 } }, 2));
+    availableCards.Add(new Card("Card 15", new Dictionary<string, int> { { "Emerald", 1 }, { "Onyx", 3 } }, 1));
+    availableCards.Add(new Card("Card 16", new Dictionary<string, int> { { "Diamond", 2 }, { "Sapphire", 2 }, { "Emerald", 1 } }, 2));
+    availableCards.Add(new Card("Card 17", new Dictionary<string, int> { { "Sapphire", 4 }, { "Ruby", 1 } }, 3));
+    availableCards.Add(new Card("Card 18", new Dictionary<string, int> { { "Ruby", 2 }, { "Diamond", 3 } }, 2));
+    availableCards.Add(new Card("Card 19", new Dictionary<string, int> { { "Onyx", 3 }, { "Emerald", 2 } }, 2));
+    availableCards.Add(new Card("Card 20", new Dictionary<string, int> { { "Diamond", 1 }, { "Ruby", 2 } }, 1));
+
+    availableCards.Add(new Card("Card 21", new Dictionary<string, int> { { "Onyx", 2 }, { "Sapphire", 3 } }, 2));
+    availableCards.Add(new Card("Card 22", new Dictionary<string, int> { { "Emerald", 2 }, { "Diamond", 4 } }, 3));
+    availableCards.Add(new Card("Card 23", new Dictionary<string, int> { { "Ruby", 3 }, { "Sapphire", 1 } }, 1));
+    availableCards.Add(new Card("Card 24", new Dictionary<string, int> { { "Onyx", 4 }, { "Emerald", 2 } }, 3));
+    availableCards.Add(new Card("Card 25", new Dictionary<string, int> { { "Sapphire", 2 }, { "Diamond", 2 } }, 1));
+    availableCards.Add(new Card("Card 26", new Dictionary<string, int> { { "Ruby", 4 }, { "Emerald", 1 } }, 3));
+    availableCards.Add(new Card("Card 27", new Dictionary<string, int> { { "Onyx", 3 }, { "Sapphire", 2 }, { "Emerald", 1 } }, 2));
+    availableCards.Add(new Card("Card 28", new Dictionary<string, int> { { "Ruby", 3 }, { "Diamond", 2 }, { "Sapphire", 1 } }, 2));
+    availableCards.Add(new Card("Card 29", new Dictionary<string, int> { { "Sapphire", 4 }, { "Emerald", 2 } }, 3));
+    availableCards.Add(new Card("Card 30", new Dictionary<string, int> { { "Onyx", 3 }, { "Diamond", 1 } }, 1));
+
+    availableCards.Add(new Card("Card 31", new Dictionary<string, int> { { "Ruby", 2 }, { "Sapphire", 3 } }, 2));
+    availableCards.Add(new Card("Card 32", new Dictionary<string, int> { { "Emerald", 4 }, { "Onyx", 2 } }, 3));
+    availableCards.Add(new Card("Card 33", new Dictionary<string, int> { { "Diamond", 3 }, { "Emerald", 1 } }, 2));
+    availableCards.Add(new Card("Card 34", new Dictionary<string, int> { { "Onyx", 1 }, { "Ruby", 3 } }, 1));
+    availableCards.Add(new Card("Card 35", new Dictionary<string, int> { { "Diamond", 2 }, { "Emerald", 3 }, { "Onyx", 1 } }, 2));
+    availableCards.Add(new Card("Card 36", new Dictionary<string, int> { { "Sapphire", 2 }, { "Ruby", 4 } }, 3));
+    availableCards.Add(new Card("Card 37", new Dictionary<string, int> { { "Emerald", 3 }, { "Diamond", 2 } }, 2));
+    availableCards.Add(new Card("Card 38", new Dictionary<string, int> { { "Sapphire", 1 }, { "Ruby", 2 } }, 1));
+    availableCards.Add(new Card("Card 39", new Dictionary<string, int> { { "Onyx", 4 }, { "Diamond", 3 } }, 3));
+    availableCards.Add(new Card("Card 40", new Dictionary<string, int> { { "Ruby", 2 }, { "Emerald", 1 }, { "Sapphire", 2 } }, 2));
+}
 
     private void CollectGems(Player player)
     {
